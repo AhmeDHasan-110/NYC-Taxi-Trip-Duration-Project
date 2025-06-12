@@ -30,7 +30,8 @@ pip install pyarrow
 ├── README.md
 ├── requirements.txt
 ├── EDA.ipynb
-├── project_report.pdf
+├── Report.pdf
+├── models_results.xlsx
 ├── prepare_data.py
 ├── train.py
 ├── prepared_data
@@ -48,7 +49,8 @@ pip install pyarrow
 
 * `requirements.txt` : Contains the libraries and packages you need to run the project locally.
 * `EDA.ipynb` : The exploratory data analysis (EDA) on the training data.
-* `project_report.pdf` : A report were I summarized the findings of EDA, changes made to the data, and the final modeling results.
+* `Report.pdf` : A report were I summarized the findings of EDA, changes made to the data, and the final modeling results.
+* `models_results.xlsx` : Excel file contains the train and test results of the models. 
 * `prepare_data.py` : Python file for preparing the data before processing it.\
 The _prepare()_ function in the file combines all the functions in the file to run the preparation steps on the test data. It's almost the same modifications occured on the training data (adding features, converting types,...).
 * `train.py` : The training script of the models. This file contains the pipelines and processing steps I used on the data.
